@@ -14,6 +14,7 @@ body {
     color: #E5E7EB;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 4px;
     gap: 16px;
     font-size: 18px;
@@ -24,3 +25,54 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 16px;
+    padding: 100px
+}
+
+.hero-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+
+.hero-blurb {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    padding: 16px;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: lightgray; /* Set a fixed width */
+}
+
+.signup{
+    margin-top: 15px;
+    width: 100px;
+    padding: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
