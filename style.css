@@ -123,4 +123,45 @@ body {
     width: 100%;
 }
 
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 375px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 0;
+    color: #1F2937;
+    width: 750px;
+}
+
+.quote-source{
+    display: flex;
+    width: 750px;
+    justify-content: right;
+    padding-right: 125px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.call {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 375px;
+}
+
+.actionbox {
+    display: flex;
+    width: 75%;
+    background: #3882F6;
+    height: 50%;
+    border-radius: 20px;
+}
