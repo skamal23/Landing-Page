@@ -57,14 +57,6 @@ body {
     padding: 16px;
 }
 
-.hero-image{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    background-color: lightgray; /* Set a fixed width */
-}
 
 .signup{
     margin-top: 15px;
