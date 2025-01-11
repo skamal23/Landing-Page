@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.header {
+.header,.footer {
     display: flex;
     padding: 16px;
     justify-content: space-around;
@@ -155,13 +155,32 @@ body {
     background-color: white;
     align-items: center;
     justify-content: center;
-    height: 375px;
+    height: 300px;
 }
 
 .actionbox {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
     width: 75%;
     background: #3882F6;
     height: 50%;
     border-radius: 20px;
+}
+
+.coatitle{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.calltoaction {
+    color:white;
+}
+
+.footer {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
